@@ -1,7 +1,7 @@
-Author: ReWe98(RexRowe)
-Editor: Visual Studio Code
-System: Windows 10 pro
-Date: 8/29/2018
+# Author: ReWe98(RexRowe)
+# Editor: Visual Studio Code
+# System: Windows 10 pro
+# Date: 8/29/2018
     
 import lxml.html
 import requests
@@ -17,7 +17,7 @@ class getInfo(Douban):
     
     def getSource(self,doubanUrl):
         
-        response = requests.get(self.doubanUrl)
+        response = requests.get(doubanUrl)
 
         response.encoding = 'utf-8'
 
