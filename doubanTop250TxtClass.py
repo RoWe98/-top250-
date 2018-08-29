@@ -1,3 +1,8 @@
+Author: ReWe98(RexRowe)
+Editor: Visual Studio Code
+System: Windows 10 pro
+Date: 8/29/2018
+    
 import lxml.html
 import requests
 
